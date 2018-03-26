@@ -1,5 +1,5 @@
 # 命名规范：作用范围＋类型＋命名
-- 通常在 JavaScript 中被认为是减法，所以不允许使用，使用　_　区分  
+```- ``` 通常在 JavaScript 中被认为是减法，所以不允许使用，使用　_　区分  
 类的命名：（pascal大驼峰式）　如：ClassPage  
 类文件命名规范：类的文件名与类的名字保持一致。如：class_page.js   
 类的实例对象的命名（对象变量命名）: （Hungarian）（Camel小驼峰式）。如：Global_classPage_one  
