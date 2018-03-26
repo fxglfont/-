@@ -25,12 +25,14 @@ h1、h2、h3、h4、h5、h6、p、dt只能包含内嵌元素，不能再包含�
 li 或者 dt 标签必须被包含在ul, ol 或者 dl 这些容器  
 # 最佳实践代码
 为文档设置IE兼容规则  
-```<!-- 兼容IE低版本的浏览器 -->  
+```
+<!-- 兼容IE低版本的浏览器 -->  
 <!DOCTYPE html>  
 <!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"> <![endif]-->  
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="zh"> <![endif]-->  
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="zh"> <![endif]-->  
 <!--[if gt IE 8]>  <html class="no-js" lang="zh"> <![endif]-->  ```
+
 HTML5 doctype：每个 HTML 页面的第一行添加标准模式：'''<!DOCTYPE html>'''   
 语言属性：强烈建议为 html 根元素指定 lang 属性：```<html lang="en-us">```   
 IE 兼容模式``` <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  ```
