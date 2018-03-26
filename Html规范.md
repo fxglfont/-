@@ -30,13 +30,15 @@ li 或者 dt 标签必须被包含在ul, ol 或者 dl 这些容器
 <!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"> <![endif]-->  
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="zh"> <![endif]-->  
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="zh"> <![endif]-->  
-<!--[if gt IE 8]>  <html class="no-js" lang="zh"> <![endif]-->  ```
-HTML5 doctype：每个 HTML 页面的第一行添加标准模式：<!DOCTYPE html>
-
-
-
-
-
-
-
-
+<!--[if gt IE 8]>  <html class="no-js" lang="zh"> <![endif]-->  ```  
+HTML5 doctype：每个 HTML 页面的第一行添加标准模式：'''<!DOCTYPE html>'''   
+语言属性：强烈建议为 html 根元素指定 lang 属性：```<html lang="en-us">```   
+IE 兼容模式``` <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  ```
+字符编码: 一般采用 UTF-8 编码  
+引入 CSS 和 JavaScript 文件: 在引入 CSS 和 JavaScript 文件时一般不需要指定 type 属性  
+布尔（boolean）型属性：布尔型属性可以在声明时不赋值。  
+viewport：```<meta name="viewport" content="width=device-width, initial-scale=1.0">  ```
+实用为王: 任何时候都要尽量使用最少的标签并保持最小的复杂度  
+# 常见标签语义
+段落<p>	  
+<h1> <h2> <h3> ...	标题  
