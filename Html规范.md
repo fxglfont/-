@@ -31,7 +31,7 @@ li 或者 dt 标签必须被包含在ul, ol 或者 dl 这些容器
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="zh"> <![endif]-->  
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="zh"> <![endif]-->  
 <!--[if gt IE 8]>  <html class="no-js" lang="zh"> <![endif]-->  
-
+HTML5 doctype：每个 HTML 页面的第一行添加标准模式：<!DOCTYPE html>
 
 
 
