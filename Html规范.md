@@ -11,8 +11,7 @@ HTML属性：以 data- (如：data-quantity, data-price) 作为前缀
 不使用行内样式（<style>.no-good {}</style>）  
 不在元素上使用 style 属性（<hr style="border-top: 5px solid black">）  
 不使用行内脚本（<script>alert('no good')</script>）  
-不使用表象元素 
-   （i.e. <b>, <u>, <center>, <font>, <b>）   
+不使用表象元素   
 不要使用<em>和<strong>(主要)  
 不要使用<i>和<b>(主要)  
 不使用表象 class 名（i.e. red, left, center）  
