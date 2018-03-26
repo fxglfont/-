@@ -8,7 +8,7 @@ HTML属性：以 data- (如：data-quantity, data-price) 作为前缀
 # 标签使用规则
 自闭合（self-closing）标签，无需闭合 ( 例如： img input br hr 等 )；  
 多媒体回溯 对页面上的媒体而言，像图片、视频、canvas 动画等，要确保其有可替代的接入接口  
-不使用行内样式（<style>.no-good {}</style>）  
+不使用行内样式 
 不在元素上使用 style 属性（<hr style="border-top: 5px solid black">）  
 不使用行内脚本（<script>alert('no good')</script>）  
 不使用表象元素  
