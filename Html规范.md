@@ -42,5 +42,12 @@ IE 兼容模式```<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 viewport：```<meta name="viewport" content="width=device-width, initial-scale=1.0">```   
 实用为王: 任何时候都要尽量使用最少的标签并保持最小的复杂度  
 # 常见标签语义
-段落<p>	  
-<h1> <h2> <h3> ...	标题  
+段落p  
+h1 h2 h3 ...	标题  
+ul	无序列表  
+ol	有序列表  
+blockquote	大段引用  
+cite	一般引用  
+  
+  
+  
